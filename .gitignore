@@ -1,0 +1,34 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Debug / Release folders
+Debug/
+Release/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Publish folder
+publish/
+
+# Local config secrets
+appsettings.Development.json
