@@ -5,7 +5,8 @@
         Application.SetHighDpiMode(HighDpiMode.SystemAware)
         Application.EnableVisualStyles()
         Application.SetCompatibleTextRenderingDefault(False)
-        Application.Run(New ExamListForm())
+        ' Application.Run(New ExamListForm())
+        Application.Run(New ReviewDirectorUpload())
         ' Application.Run(New ReviewDirectorForm())
     End Sub
 

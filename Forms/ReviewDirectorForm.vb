@@ -27,7 +27,7 @@ Public Class ReviewDirectorForm
         Me.BackColor = Color.White
         Me.Font = New Font("Segoe UI", 10)
     
-        httpClient.Timeout = TimeSpan.FromMinutes(2)
+        httpClient.Timeout = TimeSpan.FromMinutes(3)
         BuildUI()
         AddHandler Me.Load, AddressOf MainForm_Load
     End Sub
@@ -57,6 +57,7 @@ Public Class ReviewDirectorForm
 
         pnlMaterial.Controls.Add(cmbDocuments)
         pnlMaterial.Controls.Add(lblMaterial)
+
 
         ' ===== CONFIG PANEL =====
         Dim pnlConfig As New FlowLayoutPanel()
